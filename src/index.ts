@@ -12,7 +12,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://ACE-GiftBot.vercel.app"],
+    origin: ["http://localhost:5173", "https://ace-giftbot.vercel.app"],
     credentials: true,
   })
 );
